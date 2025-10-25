@@ -1,0 +1,121 @@
+.itinerary-container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.itinerary-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.itinerary-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #34495e;
+}
+
+.itinerary-form input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.itinerary-form button {
+  padding: 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.itinerary-form button:hover {
+  background-color: #2980b9;
+}
+
+.itinerary-form button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+.itinerary-output {
+  margin-top: 30px;
+}
+
+.day-plan {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.day-plan h4 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.day-plan ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.day-plan li {
+  margin-bottom: 5px;
+}
+
+
+.weather-section {
+  margin-top: 30px;
+  text-align: center;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.weather-section h3 {
+  color: #1a5276;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.itinerary-text {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
+.itinerary-text p {
+  margin-bottom: 10px;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
