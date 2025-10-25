@@ -2,7 +2,7 @@
 
 > *Plan your perfect trip with the power of AI and real-time weather insights.*
 
-The **AI Travel Planner** is a modern web application that helps travelers effortlessly generate **personalized itineraries**, get **AI-based travel suggestions**, and check **real-time weather conditions** — all in one elegant dashboard. 🌍✨
+The **AI Travel Planner** is a modern web application that helps travelers effortlessly generate **personalized itineraries**, get **AI-based travel suggestions**, and check **real-time weather conditions** — all in one elegant dashboard. 
 
 ---
 
@@ -26,7 +26,7 @@ Visually engaging cards showcase what makes this app special — from AI insight
 
 | Layer | Technology |
 |-------|-------------|
-| **Frontend** | React.js, Axios, Tailwind / Custom CSS |
+| **Frontend** | React.js, Axios, CSS |
 | **Backend** | Node.js, Express.js |
 | **AI Integration** | Gemini API (Google Generative AI) |
 | **Weather Data** | OpenWeather API |
