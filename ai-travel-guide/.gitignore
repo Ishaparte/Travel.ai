@@ -32,3 +32,17 @@ node_modules/
 # Build folders
 /build
 /dist
+
+
+# Node
+node_modules/
+backend/node_modules/
+ai-travel-guide/node_modules/
+
+# Logs
+*.log
+backend/logs/
+ai-travel-guide/logs/
+
+# Build outputs
+ai-travel-guide/build/
